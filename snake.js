@@ -1,4 +1,12 @@
 /**
+ * Snake.
+ *
+ * A challenge project (week 1 of 2018).
+ *
+ * @author Adam Handen (ahanden@github)
+ */
+
+/**
  * Create a new game of snake.
  *
  * This snake game uses vanilla JS compatable as far back as IE8. The game does
@@ -6,6 +14,7 @@
  * mobile devices. When providing an element as the container, make sure the
  * element is focusable in order for key pressed to be detected (tabindex="0").
  *
+ * @constructor
  * @param {Node} container   The Dom node to put the game in.
  * @param {int} width        The number of cells wide to make the board.
  * @param {int} height       The number of cells tall to make the board.
