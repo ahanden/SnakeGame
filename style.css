@@ -1,0 +1,34 @@
+/*--------------------------------------*\
+    Custom Styles.
+      Modify these elements to change
+      the appearance of the snake game.
+
+      Do NOT add padding or margins to
+      game elements, and be mindful of
+      styles that are not symetrical on
+      the x and y axes, as these may
+      effect the game's rendering.
+\*--------------------------------------*/
+.snake-cell {
+  background-color: black;
+  border: 1px solid black;
+}
+.snake-cell.snake-food {
+  background-color: blue;
+}
+.snake-cell.snake-body {
+  background-color: green;
+}
+
+/*--------------------------------------*\
+    Base styles.
+      It is STRONGLY recommended that
+      you do NOT modify these.
+\*--------------------------------------*/
+.snake-row {
+  text-align: center;
+  font-size: 0px;
+}
+.snake-cell {
+  display: inline-block;
+}
